@@ -38,3 +38,33 @@ Mõelge välja oma robotite maailm ja looge portaal, mis aitab kasutajal leida s
 **Teine tiim leiab teie portaalist robotikaaslase ja saab põhjenduse, mis on korraga loogiline ning naljakas.** Erinevad eelistused peavad mõjutama soovitusi.
 
 Kasutage väljamõeldud tegelasi ja andmeid. Ka röster väärib originaalset isiksust.
+
+#### Projekti kaardistamine
+
+Meie grupi liikmed olid Hendrik Ansper, Matis Vaher, Kert Käsper, 
+
+Kindlat tööjaotust meie grupis eriti ei toimunud, kõik osalesid mõtlemise ja loomisprotsessis. 
+
+Alustasime oma Robot Tinderi/Grindr'i (Droidr) loomisega Figmas, kus me me mõtlesime välja selle disaini, erinevad lehed ja milline meie rakendus lõpuks peaks olema. Otsustasime luua Tinderile sarnaselt töötava rakenduse, kust oleks näha meie klientide profiilid, neid oleks võimalik märkida kas meeldivaks või mitte. Keskendusime oma rakenduse loomisel naljakusele, mis teistele võiks meeldida ja neid naerma ajada.  
+
+Peale seda hakkasime seda leht haaval Visual Studio Code'is looma, samal ajal luues ka meie klientide profiilid kasutades piltide leidmiseks Google otsingumootorit ja nende kirjutamiseks inimlikku kujutlusvõimet ja huumorisoont. 
+
+#### docs/ai-kasutamine.md (AI kasutus)
+
+Oma projekti jaoks kasutasime Claude'i ja ChatGPT'd. Kasutasime neid AI mudeleid ideede saamiseks ja visualiseerimiseks. Ja ka segaste kohtade selgitamiseks ning info saamiseks. Claude'i kaudu me lõime esimesed esialgsed disainid meie rakenduse jaoks nn. rough draft. 
+
+#### Kasutatud piltide allikad
+
+Kasutasime pilte peamiselt meie klientide profiilide loomiseks, kõik pildid saadi inimese käe läbi Google'ist otsides. Allpool on välja toodud, kust antud pildid võeti.
+
+Note 7: https://www.theguardian.com/technology/2016/oct/19/samsung-galaxy-note-7-fire-damage-owners-angry
+
+Megasquirt V3 ECU: https://diyautotune.com/products/ms3x357-c
+
+Steam boiler: https://www.facebook.com/groups/1706748102970911/posts/3727428564236178/
+
+Robottolmuimeja: https://www.k-rauta.ee/p/robottolmuimeja-electrolux-er81uw3sw-valge-v/14qin
+
+Bosch külmkapp: https://www.vilde.eu/et/suegavkuelma-osa-all/5288-kulmkapp-kgn49xlea-bosch.html
+
+Terminator T-800: https://www.reddit.com/r/powerscales/comments/1wr0z04/skynet_vs_the_settlement_defense_front/
