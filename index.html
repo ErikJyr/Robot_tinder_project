@@ -1,13 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-project</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="screen">
+    <h1 class="title">Welcome to Tinder</h1>
+    <p class="subtitle">Please follow these house rules</p>
+
+    <ul class="rules">
+      <li class="rule">
+        <span class="check" aria-hidden="true">&#10003;</span>
+        <div>
+          <h2>Be yourself</h2>
+          <p>Make sure your photos, age and bio are true to who you are.</p>
+        </div>
+      </li>
+
+      <li class="rule">
+        <span class="check" aria-hidden="true">&#10003;</span>
+        <div>
+          <h2>Stay safe</h2>
+          <p>Don't be too quick to give out personal information.</p>
+        </div>
+      </li>
+
+      <li class="rule">
+        <span class="check" aria-hidden="true">&#10003;</span>
+        <div>
+          <h2>Play it cool</h2>
+          <p>Respect others and treat them as you would like to be treated.</p>
+        </div>
+      </li>
+
+      <li class="rule">
+        <span class="check" aria-hidden="true">&#10003;</span>
+        <div>
+          <h2>Be proactive</h2>
+          <p>Always report bad behaviour.</p>
+        </div>
+      </li>
+    </ul>
+
+    <button id="agree-btn" class="agree-btn" type="button">I Agree</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
 </html>
