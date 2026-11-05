@@ -41,9 +41,9 @@ Kasutage väljamõeldud tegelasi ja andmeid. Ka röster väärib originaalset is
 
 #### Projekti kaardistamine
 
-Meie grupi liikmed olid Hendrik Ansper, Matis Vaher, Kert Käsper, 
+Meie grupi liikmed olid Hendrik Ansper, Matis Vaher, Kert Käsper, Erik Jürgenstein, Marko Õunpuu, Mihkel Tuum.
 
-Kindlat tööjaotust meie grupis eriti ei toimunud, kõik osalesid mõtlemise ja loomisprotsessis. 
+Kindlat tööjaotust meie grupis eriti ei toimunud, kõik osalesid mõtlemise ja loomisprotsessis. Koodimises proovisime lehed eraldi luua ja kui keegi jäi hätta, siis teised aitasid hädast välja oma nõuga. 
 
 Alustasime oma Robot Tinderi/Grindr'i (Droidr) loomisega Figmas, kus me me mõtlesime välja selle disaini, erinevad lehed ja milline meie rakendus lõpuks peaks olema. Otsustasime luua Tinderile sarnaselt töötava rakenduse, kust oleks näha meie klientide profiilid, neid oleks võimalik märkida kas meeldivaks või mitte. Keskendusime oma rakenduse loomisel naljakusele, mis teistele võiks meeldida ja neid naerma ajada.  
 
