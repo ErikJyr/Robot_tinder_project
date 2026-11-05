@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111518">
+    <title>My passions are</title>
+    <link rel="stylesheet" href="styles/ff.css">
+</head>
+<body>
+    <main class="screen">
+        <form id="passion-form">
+            <h1 id="title">My passions are</h1>
+            <input id="passions" name="passions" type="text" aria-labelledby="title" autocomplete="off">
+            <p class="preview">This is how it will appear in Droidr.</p>
+            <button class="agree-button" id="agree" type="submit">I Agree</button>
+            <p class="message" id="message" aria-live="polite"></p>
+        </form>
+    </main>
+
+    <script>
+        const form = document.querySelector("#passion-form");
+        const passionsInput = document.querySelector("#passions");
+        const agreeButton = document.querySelector("#agree");
+        const message = document.querySelector("#message");
+
+        form.addEventListener("submit", (event) => {
+            event.preventDefault();
+            if (!passionsInput.value.trim()) {
+                message.textContent = "Add a passion to continue.";
+                passionsInput.focus();
+                return;
+            }
+
+            message.textContent = "Your passions have been saved.";
+            agreeButton.textContent = "Agreed";
+            agreeButton.disabled = true;
+        });
+
+        passionsInput.addEventListener("input", () => {
+            message.textContent = "";
+        });
+    </script>
+</body>
+</html>
