@@ -1,0 +1,121 @@
+:root {
+  --bg-page: #444444;
+  --bg-screen: #12161a;
+  --pink: #ff0a6c;
+  --cyan: #00e5ff;
+  --text-grey: #8d949b;
+  --subtitle-grey: #aab0b6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg-page);
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.Pealeht {
+  background: var(--bg-screen);
+  width: 100%;
+  max-width: 420px;
+  min-height: 100vh;
+  padding: 48px 28px 40px;
+  display: flex;
+  flex-direction: column;
+  font-family: comic sans ms;
+}
+
+.pealkiri {
+  color: var(--pink);
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-align: center;
+  font-family: comic sans ms;
+}
+
+.alapealkiri {
+  color: var(--subtitle-grey);
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 32px;
+}
+
+.reeglid {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.rule {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  font-family: comic sans ms;
+}
+
+.check {
+  color: var(--pink);
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.rule h2 {
+  color: var(--cyan);
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+  font-family: comic sans ms;
+}
+
+.rule p {
+  color: var(--text-grey);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  font-family: comic sans ms;
+}
+
+.agree-btn {
+  margin-top: 44px;
+  width: 100%;
+  padding: 16px;
+  background: transparent;
+  color: var(--pink);
+  border: 2px solid var(--pink);
+  border-radius: 999px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, transform 0.1s;
+  font-family: comic sans ms;
+}
+
+.agree-btn:hover {
+  background: var(--pink);
+  color: #fff;
+}
+
+.agree-btn:active {
+  transform: scale(0.98);
+}
+
+@media (min-width: 600px) {
+  body {
+    align-items: center;
+    padding: 24px 0;
+  }
+
+  .screen {
+    min-height: 720px;
+    border: 1px solid #222;
+  }
+}
