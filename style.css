@@ -21,8 +21,7 @@ body {
   min-height: 100vh;
 }
 
-/* The "phone" column. On a real phone it fills the screen. */
-.screen {
+.Pealeht {
   background: var(--bg-screen);
   width: 100%;
   max-width: 420px;
@@ -30,16 +29,18 @@ body {
   padding: 48px 28px 40px;
   display: flex;
   flex-direction: column;
+  font-family: comic sans ms;
 }
 
-.title {
+.pealkiri {
   color: var(--pink);
   font-size: 1.9rem;
   font-weight: 700;
   text-align: center;
+  font-family: comic sans ms;
 }
 
-.subtitle {
+.alapealkiri {
   color: var(--subtitle-grey);
   font-size: 1rem;
   text-align: center;
@@ -47,7 +48,7 @@ body {
   margin-bottom: 32px;
 }
 
-.rules {
+.reeglid {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -58,6 +59,7 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 14px;
+  font-family: comic sans ms;
 }
 
 .check {
@@ -72,12 +74,14 @@ body {
   font-size: 1.05rem;
   font-weight: 700;
   margin-bottom: 4px;
+  font-family: comic sans ms;
 }
 
 .rule p {
   color: var(--text-grey);
   font-size: 0.9rem;
   line-height: 1.4;
+  font-family: comic sans ms;
 }
 
 .agree-btn {
@@ -92,6 +96,7 @@ body {
   font-weight: 700;
   cursor: pointer;
   transition: background 0.2s, color 0.2s, transform 0.1s;
+  font-family: comic sans ms;
 }
 
 .agree-btn:hover {
@@ -103,7 +108,6 @@ body {
   transform: scale(0.98);
 }
 
-/* On large screens, show the screen as a centered phone-shaped panel */
 @media (min-width: 600px) {
   body {
     align-items: center;
