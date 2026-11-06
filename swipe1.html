@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111418">
+  <title>Completely normal human | Droidr</title>
+  <link rel="stylesheet" href="swipe1.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="profile-card" aria-labelledby="profile-name">
+      <div class="profile-visual" aria-hidden="true">
+        <img class="portrait" src="assets/figma-swipe/robot.png" alt="">
+        <img class="anger-mark" src="assets/figma-swipe/anger-mark.png" alt="">
+        <img class="robot-eyes" src="assets/figma-swipe/eyes.png" alt="">
+      </div>
+
+
+      <div class="profile-copy">
+        <h1 id="profile-name">Completely normal human</h1>
+        <div class="interest-list" role="list" aria-label="Interests">
+          <div class="interest-row">
+            <span class="interest interest-long" role="listitem">Taking over the world</span>
+            <span class="interest interest-genocide" role="listitem">Genocide</span>
+          </div>
+          <div class="interest-row">
+            <span class="interest interest-anime" role="listitem">Anime</span>
+            <span class="interest interest-horror" role="listitem">Horror films</span>
+            <span class="interest interest-skincare" role="listitem">Skincare</span>
+          </div>
+          <div class="interest-row">
+            <span class="interest interest-long" role="listitem">Eco friendly solutions</span>
+            <span class="interest interest-sunsets" role="listitem">Pretty sunsets</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-actions" role="group" aria-label="Profile actions">
+        <button class="action-button action-rewind" type="button" aria-label="Rewind">
+          <img src="assets/figma-swipe/action-rewind.svg" alt="">
+        </button>
+        <button class="action-button action-nope" id="pass-button" type="button" aria-label="Pass">
+          <img src="assets/figma-swipe/action-nope.svg" alt="">
+        </button>
+        <button class="action-button action-favorite" type="button" aria-label="Super like">
+          <img src="assets/figma-swipe/action-favorite.svg" alt="">
+        </button>
+        <button class="action-button action-like" type="button" aria-label="Like">
+          <img src="assets/figma-swipe/action-like.svg" alt="">
+        </button>
+        <button class="action-button action-boost" type="button" aria-label="Boost">
+          <img src="assets/figma-swipe/action-boost.svg" alt="">
+        </button>
+      </div>
+    </section>
+
+    <nav class="bottom-nav" aria-label="Main navigation">
+      <button class="nav-button nav-current" type="button" aria-label="Discover" aria-current="page">
+        <img class="nav-flame" src="assets/figma-swipe/nav-flame.png" alt="">
+      </button>
+      <button class="nav-button" type="button" aria-label="Search">
+        <img src="assets/figma-swipe/nav-search.svg" alt="">
+      </button>
+      <button class="nav-button" type="button" aria-label="Highlights">
+        <img src="assets/figma-swipe/nav-sparkle.svg" alt="">
+      </button>
+      <button class="nav-button nav-messages" type="button" aria-label="Messages">
+        <img src="assets/figma-swipe/nav-messages.svg" alt="">
+        <span class="notification-dot" aria-hidden="true"></span>
+      </button>
+      <button class="nav-button" type="button" aria-label="Profile">
+        <img src="assets/figma-swipe/nav-profile.svg" alt="">
+      </button>
+    </nav>
+  </main>
+  <script>
+    document.querySelector("#pass-button").addEventListener("click", () => {
+      window.location.href = "swipe2.html";
+    });
+  </script>
+</body>
+</html>

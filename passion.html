@@ -21,7 +21,6 @@
     <script>
         const form = document.querySelector("#passion-form");
         const passionsInput = document.querySelector("#passions");
-        const agreeButton = document.querySelector("#agree");
         const message = document.querySelector("#message");
 
         form.addEventListener("submit", (event) => {
@@ -32,9 +31,7 @@
                 return;
             }
 
-            message.textContent = "Your passions have been saved.";
-            agreeButton.textContent = "Agreed";
-            agreeButton.disabled = true;
+            window.location.href = "swipe1.html";
         });
 
         passionsInput.addEventListener("input", () => {

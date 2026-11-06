@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "Comic Relief";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/ComicRelief-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Comic Relief";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fonts/ComicRelief-Bold.ttf") format("truetype");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  min-height: 100svh;
+  margin: 0;
+  background: #111418;
+  color: #00e5ff;
+  font-family: "Comic Relief", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  color: inherit;
+  font: inherit;
+}
+
+.sad-shell {
+  display: flex;
+  width: min(100%, 390px);
+  min-height: 100vh;
+  min-height: 100svh;
+  margin: 0 auto;
+  padding-top: 48px;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  background: linear-gradient(180deg, #111418 0%, #181114 100%);
+}
+
+.sad-card {
+  position: relative;
+  width: min(382px, calc(100% - 8px));
+  height: min(744px, calc(100svh - 100px));
+  flex: 0 0 auto;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #000;
+}
+
+.sad-card h1 {
+  position: absolute;
+  top: 171px;
+  right: 0;
+  left: 0;
+  margin: 0;
+  color: #00e5ff;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 67px;
+  text-align: center;
+}
+
+.sad-robot {
+  position: absolute;
+  top: 246px;
+  left: 50%;
+  width: 173px;
+  height: 173px;
+  transform: translateX(-50%);
+}
+
+.sad-message {
+  position: absolute;
+  top: 425px;
+  left: 19px;
+  width: calc(100% - 38px);
+  margin: 0;
+  color: #00e5ff;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+}
+
+.sad-message em {
+  font-style: normal;
+}
+
+.sad-retry {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-50%);
+  border: 1px solid #ff0877;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.sad-retry img {
+  display: block;
+  width: 29px;
+  height: 29px;
+}
+
+.sad-nav {
+  display: flex;
+  width: min(382px, calc(100% - 8px));
+  height: 52px;
+  flex: 0 0 52px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sad-nav-button {
+  position: relative;
+  display: inline-flex;
+  width: 44px;
+  height: 48px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background: transparent;
+}
+
+.sad-nav-button img {
+  display: block;
+}
+
+.sad-messages span {
+  position: absolute;
+  top: 8px;
+  right: 5px;
+  width: 9px;
+  height: 9px;
+  border: 1px solid #111418;
+  border-radius: 50%;
+  background: #ff0877;
+}
+
+.sad-retry:focus-visible,
+.sad-nav-button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+
+@media (max-height: 843px) {
+  .sad-shell {
+    padding-top: 24px;
+    overflow: visible;
+  }
+
+  .sad-card {
+    height: 744px;
+  }
+}

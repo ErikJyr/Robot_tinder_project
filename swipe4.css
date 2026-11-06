@@ -1,0 +1,410 @@
+@font-face {
+  font-family: "Comic Relief";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/ComicRelief-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Comic Relief";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fonts/ComicRelief-Bold.ttf") format("truetype");
+}
+
+:root {
+  color-scheme: dark;
+  font-family: "Comic Relief", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --cyan: #00e5ff;
+  --pink: #ff0877;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  min-height: 100svh;
+  margin: 0;
+  background: #111418;
+}
+
+button {
+  color: inherit;
+  font: inherit;
+}
+
+.app-shell {
+  display: flex;
+  width: min(100%, 390px);
+  min-height: 100vh;
+  min-height: 100svh;
+  margin: 0 auto;
+  padding-top: 48px;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  background: linear-gradient(180deg, #111418 0%, #181114 100%);
+}
+
+.profile-card {
+  position: relative;
+  width: min(382px, calc(100% - 8px));
+  height: min(744px, calc(100svh - 100px));
+  flex: 0 0 auto;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #000;
+}
+
+.profile-visual {
+  position: absolute;
+  inset: 0 0 79px;
+  overflow: hidden;
+}
+
+.portrait {
+  position: absolute;
+  top: -19px;
+  left: 50%;
+  width: min(294px, 100%);
+  height: auto;
+  transform: translateX(-50%);
+}
+
+.anger-mark,
+.robot-eyes {
+  position: absolute;
+  object-fit: contain;
+}
+
+.anger-mark {
+  top: 13px;
+  left: calc(50% - 85px);
+  width: 49px;
+  height: 49px;
+}
+
+.robot-eyes {
+  top: 38px;
+  left: calc(50% - 66px);
+  width: 105px;
+  height: 59px;
+}
+
+.verified-badge {
+  position: absolute;
+  top: 508px;
+  left: calc(50% + 127px);
+  width: 20px;
+  height: 20px;
+}
+
+.profile-copy {
+  position: absolute;
+  inset: 0 0 79px;
+}
+
+.profile-copy h1 {
+  position: absolute;
+  top: 513px;
+  left: 28px;
+  margin: 0;
+  color: var(--cyan);
+  font-size: clamp(20px, 6.28vw, 24.5px);
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.1px;
+  text-shadow: 0 1px 1px #000;
+  white-space: nowrap;
+}
+
+.interest-list {
+  position: absolute;
+  top: 562px;
+  left: 23px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.interest-row {
+  display: flex;
+  height: 30px;
+  gap: 6px;
+}
+
+.interest-row:last-child {
+  gap: 13px;
+}
+
+.interest {
+  display: inline-flex;
+  height: 30px;
+  padding: 3px 12px 4px 13px;
+  align-items: center;
+  border: 1px solid var(--cyan);
+  border-radius: 100px;
+  background: rgb(80 89 101 / 80%);
+  color: var(--cyan);
+  font-size: 15px;
+  line-height: 20px;
+  text-shadow: 0 1px 1px rgb(0 0 0 / 12%);
+  white-space: nowrap;
+}
+
+.interest-genocide {
+  width: 88px;
+}
+
+.interest-long {
+  width: 175px;
+}
+
+.interest-anime {
+  width: 68px;
+}
+
+.interest-horror {
+  width: 110px;
+}
+
+.interest-skincare {
+  width: 82px;
+}
+
+.interest-sunsets {
+  width: 122px;
+}
+
+.profile-actions {
+  position: absolute;
+  right: 15px;
+  bottom: 8px;
+  left: 15px;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.action-button {
+  display: inline-flex;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--cyan);
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.action-button img {
+  display: block;
+}
+
+.action-nope {
+  width: 60px;
+  height: 60px;
+  border-color: var(--pink);
+}
+
+.action-like {
+  width: 60px;
+  height: 60px;
+  border-color: #00cc99;
+}
+
+.action-button:focus-visible,
+.nav-button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+
+.bottom-nav {
+  display: flex;
+  width: min(382px, calc(100% - 8px));
+  height: 52px;
+  flex: 0 0 52px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.nav-button {
+  position: relative;
+  display: inline-flex;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.nav-button img {
+  display: block;
+  flex: 0 0 auto;
+}
+
+.nav-flame {
+  width: 44px;
+  height: 44px;
+}
+
+.notification-dot {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 9px;
+  height: 9px;
+  border: 1px solid #111418;
+  border-radius: 50%;
+  background: var(--pink);
+}
+
+@media (max-width: 360px) {
+  .interest-list {
+    transform: scale(0.9);
+    transform-origin: top left;
+  }
+}
+
+@media (max-height: 843px) {
+  .app-shell {
+    min-height: 100vh;
+    min-height: 100svh;
+    padding-top: 24px;
+    overflow: visible;
+  }
+
+  .profile-card {
+    height: 744px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.boiler-portrait {
+  position: absolute;
+  top: 41px;
+  left: 23px;
+  width: 336px;
+  height: 448px;
+  object-fit: cover;
+}
+
+.boiler-eyelashes {
+  position: absolute;
+  overflow: hidden;
+}
+
+.boiler-eyelashes img {
+  position: absolute;
+  object-fit: contain;
+}
+
+.boiler-eyelashes-left {
+  top: 136px;
+  left: 142px;
+  width: 89px;
+  height: 181px;
+}
+
+.boiler-eyelashes-left img {
+  top: -5.5%;
+  left: -1.84%;
+  width: 203.19%;
+  height: 100%;
+}
+
+.boiler-eyelashes-right {
+  top: 125px;
+  left: 218px;
+  width: 103px;
+  height: 172px;
+}
+
+.boiler-eyelashes-right img {
+  top: -2.07%;
+  left: -111.45%;
+  width: 215.71%;
+  height: 102.07%;
+}
+
+.boiler-lips {
+  position: absolute;
+  top: 257px;
+  left: 203px;
+  width: 80px;
+  height: 104px;
+  object-fit: contain;
+}
+
+.boiler-handbag {
+  position: absolute;
+  top: 315px;
+  left: 63px;
+  width: 149px;
+  height: 149px;
+  object-fit: contain;
+}
+
+.profile-boiler .profile-copy h1 {
+  top: 500px;
+  right: 14px;
+  left: 14px;
+  font-size: clamp(22px, 7.2vw, 28px);
+  line-height: 1.25;
+  text-align: center;
+  white-space: normal;
+}
+
+.boiler-distance {
+  position: absolute;
+  top: 621px;
+  right: 0;
+  left: 0;
+  margin: 0;
+  color: var(--pink);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+}
+
+.profile-boiler .profile-actions {
+  justify-content: space-between;
+}
+
+.profile-boiler .profile-actions .action-rewind,
+.profile-boiler .profile-actions .action-favorite,
+.profile-boiler .profile-actions .action-boost {
+  display: none;
+}
+
+.profile-boiler .profile-actions .action-nope,
+.profile-boiler .profile-actions .action-like {
+  width: 60px;
+  height: 60px;
+}
