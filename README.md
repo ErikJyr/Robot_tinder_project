@@ -43,7 +43,7 @@ Kasutage väljamõeldud tegelasi ja andmeid. Ka röster väärib originaalset is
 
 Meie grupi liikmed olid Hendrik Ansper, Matis Vaher, Kert Käsper, Erik Jürgenstein, Marko Õunpuu, Mihkel Tuum.
 
-Kindlat tööjaotust meie grupis eriti ei toimunud, kõik osalesid mõtlemise ja loomisprotsessis. Koodimises proovisime lehed eraldi luua ja kui keegi jäi hätta, siis teised aitasid hädast välja oma nõuga. 
+Kindlat tööjaotust meie grupis eriti ei toimunud, kõik osalesid mõtlemise ja loomisprotsessis. Koodimises proovisime lehed eraldi luua ja kui keegi jäi hätta, siis teised aitasid hädast välja oma oskuste ja nõuga. Koostöö sujus üsna hästi, kõik said omavahel läbi ja suhtlus oli hea. 
 
 Alustasime oma Robot Tinderi/Grindr'i (Droidr) loomisega Figmas, kus me me mõtlesime välja selle disaini, erinevad lehed ja milline meie rakendus lõpuks peaks olema. Otsustasime luua Tinderile sarnaselt töötava rakenduse, kust oleks näha meie klientide profiilid, neid oleks võimalik märkida kas meeldivaks või mitte. Keskendusime oma rakenduse loomisel naljakusele, mis teistele võiks meeldida ja neid naerma ajada.  
 
@@ -56,6 +56,18 @@ Oma projekti jaoks kasutasime Claude'i ja ChatGPT'd. Kasutasime neid AI mudeleid
 #### Kasutatud piltide allikad
 
 Kasutasime pilte peamiselt meie klientide profiilide loomiseks, kõik pildid saadi inimese käe läbi Google'ist otsides. Allpool on välja toodud, kust antud pildid võeti.
+
+Anger symbol: https://pngtree.com/so/anger-symbol
+
+Red handbag: https://in.pinterest.com/pin/red-ladies-handbag-png-images-red-ms-handbag-png-transparent-background-pngtree--232216924520387689/
+
+Red lips: https://www.cleanpng.com/png-portable-network-graphics-drawing-image-clip-art-xdwvws/
+
+Eyelashes: https://pngtree.com/freepng/eyelash-material-black-thick-eyelashes-clipart_5988891.html
+
+Anime eyes: https://pngtree.com/freepng/cute-anime-eyes_8394216.html
+
+Blush: https://pngtree.com/freepng/blush-pink-love-anime-character-kawaii_8377378.html
 
 Note 7: https://www.theguardian.com/technology/2016/oct/19/samsung-galaxy-note-7-fire-damage-owners-angry
 
