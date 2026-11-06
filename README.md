@@ -75,6 +75,10 @@ Megasquirt V3 ECU: https://diyautotune.com/products/ms3x357-c
 
 Steam boiler: https://www.facebook.com/groups/1706748102970911/posts/3727428564236178/
 
+Mustache: https://www.citypng.com/photo/12177/hd-black-happy-fathers-day-mustache-design-transparent-png
+
+Tie: https://www.nicepng.com/ourpic/u2e6i1i1q8e6t4i1_blue-tie-png-tie-png-hd/
+
 Robottolmuimeja: https://www.k-rauta.ee/p/robottolmuimeja-electrolux-er81uw3sw-valge-v/14qin
 
 Bosch külmkapp: https://www.vilde.eu/et/suegavkuelma-osa-all/5288-kulmkapp-kgn49xlea-bosch.html
